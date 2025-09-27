@@ -1,0 +1,6 @@
+@Daitan.BackgroundServices_HostAddress = http://localhost:5111
+
+GET {{Daitan.BackgroundServices_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

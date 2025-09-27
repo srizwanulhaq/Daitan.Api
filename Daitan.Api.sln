@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Daitan.Api", "Daitan.Api\Daitan.Api.csproj", "{029AF473-EF48-4DC6-A29E-19D42AF6B942}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Daitan.Business", "Daitan.Business\Daitan.Business.csproj", "{0663EA90-2E09-4700-B50E-349C316B940E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Daitan.Data", "Daitan.Data\Daitan.Data.csproj", "{A2F655D8-763B-4046-9AED-71AFDAC74301}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Daitan.MqttServer", "Daitan.MqttServer\Daitan.MqttServer.csproj", "{6D47BDD1-67D3-4B69-AADF-0E7B88466F8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Daitan.BackgroundServices", "Daitan.BackgroundServices\Daitan.BackgroundServices.csproj", "{E3D70D08-B989-4B7D-B6B7-5A37C49CCCFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{029AF473-EF48-4DC6-A29E-19D42AF6B942}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{029AF473-EF48-4DC6-A29E-19D42AF6B942}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{029AF473-EF48-4DC6-A29E-19D42AF6B942}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{029AF473-EF48-4DC6-A29E-19D42AF6B942}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0663EA90-2E09-4700-B50E-349C316B940E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0663EA90-2E09-4700-B50E-349C316B940E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0663EA90-2E09-4700-B50E-349C316B940E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0663EA90-2E09-4700-B50E-349C316B940E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2F655D8-763B-4046-9AED-71AFDAC74301}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2F655D8-763B-4046-9AED-71AFDAC74301}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2F655D8-763B-4046-9AED-71AFDAC74301}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2F655D8-763B-4046-9AED-71AFDAC74301}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D47BDD1-67D3-4B69-AADF-0E7B88466F8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D47BDD1-67D3-4B69-AADF-0E7B88466F8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D47BDD1-67D3-4B69-AADF-0E7B88466F8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D47BDD1-67D3-4B69-AADF-0E7B88466F8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3D70D08-B989-4B7D-B6B7-5A37C49CCCFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3D70D08-B989-4B7D-B6B7-5A37C49CCCFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3D70D08-B989-4B7D-B6B7-5A37C49CCCFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3D70D08-B989-4B7D-B6B7-5A37C49CCCFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
